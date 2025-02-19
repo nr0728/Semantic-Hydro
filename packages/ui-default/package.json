@@ -123,6 +123,8 @@
     "webpackbar": "^7.0.0"
   },
   "dependencies": {
+    "semantic-ui-react": "^2.1.4",
+    "semantic-ui-css": "^2.5.0",
     "@hydrooj/common": "workspace:^",
     "ansi_up": "^6.0.2",
     "cssfilter": "^0.0.11",
