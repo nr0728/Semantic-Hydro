@@ -1,0 +1,18 @@
+/* Custom Semantic UI Overrides */
+.ui.container {
+  padding: 2em 0;
+}
+
+.ui.menu {
+  border-radius: 0;
+  margin-bottom: 2em;
+}
+
+.ui.segment {
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+}
+
+/* Preserve Hydro's rounded corners if enabled */
+.theme--default .ui.segment {
+  border-radius: 8px;
+}
