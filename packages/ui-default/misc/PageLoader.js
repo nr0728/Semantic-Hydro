@@ -2,6 +2,7 @@ import { Page } from './Page';
 
 export default class PageLoader {
   constructor() {
+    this.defaultLayout = 'semantic';
     const pages = require.context('../pages/', true, /\.page\.[jt]sx?$/i);
     const components = require.context('../components/', true, /\.page\.[jt]sx?$/i);
     this.pageInstances = [
