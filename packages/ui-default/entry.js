@@ -1,4 +1,6 @@
 import './polyfill';
+import 'semantic-ui-css/semantic.min.css';
+import './styles/semantic-custom.css';
 
 import $ from 'jquery';
 
